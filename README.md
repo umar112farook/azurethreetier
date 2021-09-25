@@ -22,10 +22,10 @@ Steps to follow:
 2. If necessary, log in to your Azure subscription and change the Azure directory. Make sure you are owner or Contributor to the subscription.
 3. Open Cloud Shell.
 4. Select PowerShell from the drop down
-5. Verify the default Azure subscription where you want to create resources with below command 
-	az account show
+5. Verify the default Azure subscription where you want to create resources with command 
+	[az account show]
 6. To use a specific Azure subscription, run az account set. 
-	az account set --subscription "<subscription_id_or_subscription_name>"
+	[az account set --subscription "<subscription_id_or_subscription_name>"]
 7. Clone the terraform repo from GITHUB with below command 
 	git clone https://github.com/umar112farook/azurethreetier.git
 8. Change working directory now with below command.
