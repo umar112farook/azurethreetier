@@ -22,7 +22,7 @@ Steps to follow:
 2. If necessary, log in to your Azure subscription and change the Azure directory. Make sure you are owner or Contributor to the subscription.
 3. Open Cloud Shell.
 4. Select PowerShell from the drop down
-5. Verify the default Azure subscription where you want to create resources with command 
+5. Verify the default Azure subscription where you want to create resources with below command 
 
 	az account show
 	
@@ -40,15 +40,15 @@ Steps to follow:
 	
 9. Now initialize terraform with below command.
 
-	Terraform init
+	terraform init
 	
 10. Now verify the execution terraform plan with below command.
 
-	Terraform Plan
+	terraform Plan
 	
 11. Now do apply to create the resources in the subscription with below command.
 
-	Terraform apply.
+	terraform apply.
 	
 12. When prompted press YES
 
