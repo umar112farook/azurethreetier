@@ -36,14 +36,20 @@ Steps to follow:
 
 8. Change working directory now with below command.
 
-	cd azure-stack
+	cd azurethreetier
 	
 9. Now initialize terraform with below command.
+
 	Terraform init
+	
 10. Now verify the execution terraform plan with below command.
+
 	Terraform Plan
+	
 11. Now do apply to create the resources in the subscription with below command.
+
 	Terraform apply.
+	
 12. When prompted press YES
 
 
