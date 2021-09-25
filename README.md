@@ -40,7 +40,7 @@ Steps to follow:
 
 
 
-##Following the above steps will give you below resources.
+##Following the above steps will give you below resources
 
 1. availability_set == "app_availabilty_set"
 2. availability_set == "web_availabilty_set"
