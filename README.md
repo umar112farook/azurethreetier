@@ -44,13 +44,13 @@ Steps to follow:
 	
 10. Now verify the execution terraform plan with below command.
 
-	terraform Plan
+	terraform plan
 	
 11. Now do apply to create the resources in the subscription with below command.
 
-	terraform apply.
+	terraform apply
 	
-12. When prompted press YES
+12. When prompted press yes
 
 
 
